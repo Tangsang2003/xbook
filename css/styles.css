@@ -13,6 +13,12 @@ h1 {
     font-weight: 700;
 }
 
+a {
+    
+    color: black;
+    
+}
+
 .welcome {
     line-height: 2;
 }
