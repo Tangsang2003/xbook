@@ -14,9 +14,7 @@ h1 {
 }
 
 a {
-    
     color: black;
-    
 }
 
 .welcome {
@@ -64,11 +62,19 @@ a {
     margin-top: 5px;
 }
 
+.forgot-password:hover {
+    color: white;
+}
+
 .sign-up {
 
     display: block;
     text-decoration: none;
     margin-top: 15px;
+}
+
+.sign-up:hover {
+    color: white;
 }
 
 .header-logo {
