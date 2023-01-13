@@ -1,0 +1,167 @@
+body
+{
+    text-align: center;
+    margin: 0;
+    background-color: #FBFBEF;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-size:  70px;
+    margin: 10px auto;
+    font-weight: 700;
+}
+
+.welcome {
+    line-height: 2;
+}
+
+.top-container {
+    padding: 30px 0 10px 0;
+    margin: 0;
+    background-color: #7C9082;
+    
+}
+
+.user-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.login-form {
+    background-color: #BFADA3;
+    width: 25%;
+    margin: auto auto 70px auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5%;
+}
+
+.welcome {
+    font-family: 'Montserrat',sans-serif;
+    width: 50%;
+    margin: 30px auto 30px auto;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.tagline {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.forgot-password {
+    display: block;
+    text-decoration:  none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.sign-up {
+
+    display: block;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.header-logo {
+    width: 10%;
+}
+
+.bottom-container {
+    background-color: #7C9082 ;
+    padding: 30px 0;
+    margin-bottom: 0;
+}
+
+.copyright {
+    
+
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.socials {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.socials:hover {
+    color: white;
+}
+
+
+/**************************************** Login Button ****************************************************/
+
+
+.login-button {
+    padding: 10px 10px ;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   }
+   
+   .login-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .login-button:hover {
+    color: #e8e8e8;
+    cursor: pointer;
+   }
+   
+   .login-button:hover::before {
+    width: 100%;
+   }
+
+/****************************************************** Login button Close ***********************************************/
+
+/****************************************************** Input ***************************************************/
+.input {
+    display: block;
+    margin: 25px auto 0px auto;
+    max-width: 210px;
+    height: 50px;
+    border-radius: 7px;
+    border: 0;
+    outline: auto grey;
+    padding-inline: 15px;
+    font-size: 16px;
+    transform: all 200ms;
+    
+  }
+  
+  .input:focus {
+    text-decoration: underline 6px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    border: 1px solid grey;
+  }
